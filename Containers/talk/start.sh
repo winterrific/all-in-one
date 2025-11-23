@@ -49,6 +49,7 @@ eturnal:
     - ip: "$IP_BINDING"
       port: $TALK_PORT
       transport: tcp
+      proxy_protocol: true
   log_dir: stdout
   log_level: warning
   secret: "$TURN_SECRET"
